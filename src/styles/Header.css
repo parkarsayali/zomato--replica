@@ -1,0 +1,103 @@
+.app-header {
+    height: 50px;
+    background-color: red;
+    padding-top: 4px;
+}
+
+.logo-header {
+    width: 40px;
+    height: 40px;
+    margin-left: 42px;
+    background-color: white;
+    border-radius: 50%;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eb2929;
+    vertical-align: center;
+    float: left;
+    cursor: default;
+}
+
+.login {
+    width: 43px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 25px
+}
+
+.create-an-account {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 20px;
+    border: 1px solid;
+    padding: 5px;
+
+}
+
+/* for the div containing google and fb logins */
+.login-g-fb-popup {
+    margin-bottom: 25px;
+}
+
+.login-google-facebook {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 20px;
+}
+
+/* for login with credentials button */
+.login-w-cred {
+    height: 41px;
+}
+
+/* for the username after login */
+.username {
+
+    font-family: Poppins;
+    font-size: 16px;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 25px
+}
+
+/* for logout */
+.logout {
+
+    font-family: Poppins;
+    font-size: 16px;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 25px
+}
+
+.buttonText {
+    font-family: Poppins;
+}

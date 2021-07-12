@@ -1,0 +1,241 @@
+body {
+    background-color: #fbfbfb;
+    font-family: Poppins;
+}
+
+/* for the main heading */
+#heading {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+
+}
+
+/* for the filter section box on the left */
+.filters_section {
+    height: auto;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--white);
+    display: inline-block;
+}
+
+/* for span class of icon */
+.downSymbol {
+    float: right;
+}
+
+/* fr heading "filters" */
+#filter_heading {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+/* common class for all the filter types for eg.select location,cuisines,cost for two etc */
+.filter_types {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.suboptn_clr {
+    color: #8c96ab;
+}
+
+/* for dd box */
+.select_location_rectangle {
+    width: 90%;
+    height: auto;
+    margin: 11px 0 22px 1px;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+/* for dd options */
+.filter_location_options {
+    color: #192f60;
+}
+
+/* for cafes section on the right */
+.cafes {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--white);
+}
+
+.filter_img_parent {
+    float: left;
+}
+
+.filter_img_parent img {
+
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+    object-fit: cover;
+    display: inline-block;
+    padding-top: 13px;
+    margin-left: 10px;
+
+}
+
+.cafe_data h2 {
+    padding-left: 140px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+
+}
+
+.cafe_data h3 {
+    padding-left: 140px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.cafe_data h4 {
+    padding-left: 140px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+/* for horihontal line */
+hr {
+    margin-top: 2%;
+    width: 90%;
+    margin-left: 2%;
+    border: solid 1px #dedfe5;
+}
+
+/* for no restaurant found msg on filter page */
+#noresfound {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline red;
+}
+
+/* for the cuisine on the left */
+.cuisines {
+    float: left;
+}
+
+/* for the right hand side bakery,rs 700 */
+/* .bakery{
+    float:right;
+  } */
+
+.cuisines_costfortwo {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    /* margin-left: 2%; */
+
+}
+
+.cuisines_costfortwovalues {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+
+
+}
+
+/* for pagination */
+.centered-pagination {
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+    margin-top: 5%;
+
+
+}
+
+.pagination a {
+    width: 36px;
+    height: 36px;
+    margin: 0 10px 0 12px;
+    padding: 5px 12px 3px;
+    border-radius: 7px;
+    border: solid 1px #8c96ab;
+    background-color: #ffffff;
+    color: #8c96ab;
+    text-decoration: none;
+}
+
+.pagination a.active {
+
+    background-color: #8c96ab;
+    color: white;
+    text-decoration: none;
+
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ffffff;
+}

@@ -1,0 +1,360 @@
+#bannerrow {
+
+    max-width: 100%;
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.75;
+}
+
+/* for logo */
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    width: 106px;
+    height: 99px;
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eb2929;
+    vertical-align: center;
+    margin-top: 15%;
+}
+
+/* text under logo */
+.textunderlogo {
+
+
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: white;
+}
+
+/* for dropdown rectangle */
+.location_dd {
+    font-family: Poppins;
+    width: 245px;
+    height: 60px;
+    margin: 0 21px 0 0;
+    text-align: center;
+    background-color: white;
+    color: #636f88;
+    float: right;
+
+}
+
+/* for location option */
+.location_options {
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+
+}
+
+/* for search restaurant */
+.search_restaurant {
+    width: 354px;
+    height: 60px;
+    margin: 0 0 0 21px;
+    padding-left: 23px;
+    background-color: white;
+    font-family: Poppins;
+    color: #636f88;
+    float: left;
+}
+
+.search_icon {
+    width: 17px;
+    height: 17px;
+    margin: 2px 19px 2px 0;
+    opacity: 0.97;
+    color: #74819e;
+    position: relative;
+    right: 470px;
+    top: 21px;
+}
+
+/* for restaurant search suggestion*/
+.suggestion_ul {
+
+
+    background: white;
+    width: 477px;
+    margin-left: 22px;
+    list-style: none;
+
+}
+
+.suggestion_li {
+    /* list-style: none;
+    
+    background-color: white;
+    font-family: Poppins;
+    color: #636f88;
+    float: left; */
+    list-style: none;
+    color: #74819e;
+    width: 360px;
+    height: 73px;
+    cursor: pointer;
+    border-bottom: 1px dotted #74819e;
+
+}
+
+
+
+.h-10 {
+    height: 10% !important;
+}
+
+.h-15 {
+    height: 15% !important;
+
+}
+
+@media only screen and (max-width:600px) {
+
+    /* For mobile phones: */
+
+    [class^="col-"],
+    [class*="col-"] {
+        height: auto !important;
+    }
+
+    #bannerrow {
+
+        max-width: 100%;
+        height: 500px;
+        background-size: cover;
+        object-fit: cover;
+        opacity: 0.75;
+    }
+
+    .logo {
+        background-color: white;
+        border-radius: 50%;
+        width: 92px;
+        height: 96px;
+        font-family: Poppins;
+        font-size: 56px;
+        font-weight: 700;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.51;
+        letter-spacing: normal;
+        text-align: center;
+        color: #eb2929;
+    }
+
+    .location_ddparent {
+        display: flex !important;
+        justify-content: center !important;
+
+    }
+
+    .location_dd {
+        margin-right: 0px !important;
+        font-family: Poppins;
+        width: 354px;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        color: #636f88;
+
+    }
+
+    .search_restaurant {
+        width: 354px !important;
+        height: 60px;
+        padding-left: 23px;
+        background-color: white;
+        font-family: Poppins;
+        color: #636f88;
+        float: left;
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+
+    /* for restaurant search suggestion*/
+    .suggestion_ul {
+
+
+        background: white;
+        width: 351px;
+        margin-left: 22px;
+        list-style: none;
+
+    }
+
+    .suggestion_li {
+        /* list-style: none;
+    
+    background-color: white;
+    font-family: Poppins;
+    color: #636f88;
+    float: left; */
+        list-style: none;
+        color: #74819e;
+        width: 351px;
+        height: 73px;
+        cursor: pointer;
+        border-bottom: 1px dotted #74819e;
+
+    }
+
+    .search_section {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .search_icon {
+        width: 17px;
+        height: 17px;
+        margin: 2px 19px 2px 0;
+        opacity: 0.97;
+        color: #74819e;
+        position: relative;
+        left: 40px;
+        top: 29px;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:792px) {
+    #bannerrow {
+
+
+        max-width: 100%;
+        height: 500px;
+        background-size: cover;
+        object-fit: cover;
+        opacity: 0.75;
+    }
+
+    .location_dd {
+        font-family: Poppins;
+        width: 254px;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+        color: #636f88;
+        float: right;
+    }
+
+    .search_section {
+        float: left;
+    }
+
+    .search_restaurant {
+        width: 354px !important;
+        height: 60px;
+        margin: 0px;
+        padding-left: 23px !important;
+        background-color: white;
+        font-family: Poppins;
+        color: #636f88;
+        float: left;
+    }
+
+    .search_icon {
+        width: 17px;
+        height: 17px;
+        margin: 2px 19px 2px 0;
+        opacity: 0.97;
+        color: #74819e;
+        position: relative;
+        top: 37px;
+        left: 7px;
+    }
+}
+
+@media only screen and (min-width:793px) and (max-width:992px) {
+
+    .col-md-6 {
+        width: 46% !important;
+        padding: 0px !important;
+    }
+
+    .search_restaurant {
+        width: 354px !important;
+        height: 60px;
+        padding-left: 23px;
+        background-color: white;
+        font-family: Poppins;
+        color: #636f88;
+        float: left;
+    }
+
+    .search_icon {
+        width: 17px;
+        height: 17px;
+        margin: 2px 19px 2px 0;
+        opacity: 0.97;
+        color: #74819e;
+        position: relative;
+        right: 346px;
+        top: 20px;
+    }
+
+    .img_itemdetails {
+        width: 95%;
+        height: auto;
+        float: left;
+        box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+        background-color: var(--white);
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1024px) {
+    .search_restaurant {
+        width: 354px !important;
+        height: 60px;
+        padding-left: 23px;
+        background-color: white;
+        font-family: Poppins;
+        color: #636f88;
+        float: left;
+    }
+
+    .search_icon {
+        width: 17px;
+        height: 17px;
+        margin: 2px 19px 2px 0;
+        opacity: 0.97;
+        color: #74819e;
+        position: relative;
+        right: 348px;
+        top: 21px;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+    .search_restaurant {
+        width: 477px;
+        height: 60px;
+        margin: 0 0 0 21px;
+        padding-left: 23px;
+        background-color: white;
+        font-family: Poppins;
+        color: #636f88;
+        float: left;
+    }
+
+}
